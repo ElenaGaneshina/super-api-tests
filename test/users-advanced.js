@@ -5,7 +5,7 @@ import {expect} from 'chai';
 const request = supertest('https://gorest.co.in/public-api/');
 const TOKEN = '8cf7f6add07523ed7072980320b98c7d9727c6fc5c4ab3a981e45ebff939ef59';
 
-describe('Users', () => {
+xdescribe('Users', () => {
     let userId;
     context('POST', () => {
         it('/users', () => {
